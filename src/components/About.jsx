@@ -29,18 +29,14 @@ const About = () => {
             <p className="text-xs text-gray-500">Education</p>
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-white">10+</h3>
+            <h3 className="text-2xl font-bold text-white">-5</h3>
             <p className="text-xs text-gray-500">Years Experience</p>
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-white">100+</h3>
+            <h3 className="text-2xl font-bold text-white">-</h3>
             <p className="text-xs text-gray-500">Projects Completed</p>
           </div>
         </div>
-
-        <button className="border border-gray-600 text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors">
-          Learn More
-        </button>
       </div>
     </section>
   );

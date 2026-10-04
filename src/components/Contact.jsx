@@ -31,7 +31,7 @@ const Contact = () => {
             <div>
               <p className="text-xs text-gray-500">Email</p>
               <p className="text-sm font-medium text-white hover:text-gray-300 cursor-pointer">
-                hello@portofolio.com
+                mdimaswakhid@gmail.com
               </p>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Contact = () => {
             <div>
               <p className="text-xs text-gray-500">Location</p>
               <p className="text-sm font-medium text-white">
-                Jakarta, Indonesia
+                Kab. Bekasi, Indonesia
               </p>
             </div>
           </div>
@@ -57,8 +57,6 @@ const Contact = () => {
                 Your Name
               </label>
               <input
-                type="text"
-                placeholder="John Doe"
                 className="w-full bg-[#161622] border border-gray-700 text-white rounded-xl px-4 py-3 focus:outline-none focus:border-gray-400 transition-colors text-sm"
               />
             </div>
@@ -68,7 +66,6 @@ const Contact = () => {
               </label>
               <input
                 type="email"
-                placeholder="john@example.com"
                 className="w-full bg-[#161622] border border-gray-700 text-white rounded-xl px-4 py-3 focus:outline-none focus:border-gray-400 transition-colors text-sm"
               />
             </div>
@@ -78,18 +75,20 @@ const Contact = () => {
               </label>
               <textarea
                 rows="4"
-                placeholder="How can I help you?"
                 className="w-full bg-[#161622] border border-gray-700 text-white rounded-xl px-4 py-3 focus:outline-none focus:border-gray-400 transition-colors text-sm resize-none"
               ></textarea>
             </div>
 
             {/* Tombol Gradient Abu-Putih */}
-            <button
-              type="button"
-              className="w-full mt-2 bg-gradient-to-r from-gray-500 to-gray-100 text-black py-3 rounded-xl font-bold hover:scale-[1.02] transition-transform shadow-[0_0_15px_rgba(156,163,175,0.2)]"
-            >
-              Send Message
-            </button>
+            <div className="relative group overflow-hidden bg-gradient-to-r from-gray-400 to-white text-black px-6 py-3 rounded-full text-sm font-bold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]">
+              <a
+                href=""
+                className="relative z-10 flex justify-center gap-2"
+              >
+                Send Message
+              </a>
+              <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-transparent via-white/60 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-[800ms] ease-in-out"></div>
+            </div>
           </form>
         </div>
       </div>

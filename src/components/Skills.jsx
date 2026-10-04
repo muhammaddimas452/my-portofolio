@@ -4,7 +4,7 @@ import {
   SiVuedotjs,
   SiReact,
   SiTailwindcss,
-  SiFirebase,
+  SiNextdotjs,
   SiPython,
   SiVite,
 } from "react-icons/si";
@@ -14,42 +14,22 @@ const Skills = () => {
     {
       name: "Laravel",
       icon: <SiLaravel className="text-red-500" />,
-      percent: "95%",
     },
     {
-      name: "Framer Motion",
-      icon: <SiFramer className="text-purple-500" />,
-      percent: "90%",
-    },
-    {
-      name: "Vue",
-      icon: <SiVuedotjs className="text-green-500" />,
-      percent: "88%",
-    },
-    {
-      name: "React",
-      icon: <SiReact className="text-blue-500" />,
-      percent: "85%",
+      name: "NextJS",
+      icon: <SiNextdotjs className="text-blue-500" />,
     },
     {
       name: "Tailwind CSS",
       icon: <SiTailwindcss className="text-teal-400" />,
-      percent: "92%",
-    },
-    {
-      name: "Firebase",
-      icon: <SiFirebase className="text-yellow-500" />,
-      percent: "80%",
     },
     {
       name: "Python",
       icon: <SiPython className="text-blue-400" />,
-      percent: "75%",
     },
     {
       name: "Vite",
       icon: <SiVite className="text-purple-400" />,
-      percent: "85%",
     },
   ];
 
@@ -78,9 +58,7 @@ const Skills = () => {
 
             <div className="flex justify-between items-center mb-2">
               <span className="text-xs text-gray-500">Proficiency</span>
-              <span className="text-xs font-bold text-gray-200">
-                {skill.percent}
-              </span>
+
             </div>
 
             <div className="w-full bg-gray-800 h-1.5 rounded-full overflow-hidden">

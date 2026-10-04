@@ -1,3 +1,5 @@
+import project1 from "../assets/project1.png"
+
 const Projects = () => {
   return (
     <section
@@ -15,19 +17,18 @@ const Projects = () => {
         {/* Project Card 1 */}
         <div className="bg-[#111118] border border-gray-800 rounded-2xl overflow-hidden hover:-translate-y-1 hover:border-gray-600 transition-all duration-300">
           <div className="h-48 bg-[#161622] flex items-center justify-center text-gray-500 border-b border-gray-800">
-            [Preview Gambar Proyek 1]
+            <img src={project1} alt="foto project1" className="w-full h-full object-cover" />
           </div>
           <div className="p-6">
             <h3 className="text-xl font-bold text-white mb-2">
-              Web Application
+              Money Tracking Web
             </h3>
             <p className="text-gray-400 text-sm mb-4">
-              A modern web application built focusing on user experience and
-              clean design.
+              Aplikasi manajemen keuangan pribadi (personal finance) berbasis web yang berfungsi sebagai asisten digital untuk mencatat, melacak, dan menganalisis arus uang Anda.
             </p>
-            <button className="text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-white hover:scale-105 transition-transform">
+            <a href="https://mooney-three.vercel.app/" className="text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-white hover:scale-105 transition-transform">
               View Project →
-            </button>
+            </a>
           </div>
         </div>
 
