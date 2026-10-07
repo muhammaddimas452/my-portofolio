@@ -71,7 +71,9 @@ const Navbar = () => {
 
       <div className="flex items-center gap-4">
         <button className="relative group overflow-hidden bg-gradient-to-r from-gray-400 to-white text-black px-6 py-2 rounded-full text-sm font-bold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]">
-          <span className="relative z-10">Hire Me</span>
+          <a href="#contact" className="relative z-10">
+            Hire Me
+          </a>
           <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-transparent via-white/60 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-[800ms] ease-in-out"></div>
         </button>
       </div>

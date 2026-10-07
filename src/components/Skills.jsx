@@ -58,7 +58,6 @@ const Skills = () => {
 
             <div className="flex justify-between items-center mb-2">
               <span className="text-xs text-gray-500">Proficiency</span>
-
             </div>
 
             <div className="w-full bg-gray-800 h-1.5 rounded-full overflow-hidden">
