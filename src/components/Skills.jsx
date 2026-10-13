@@ -1,8 +1,5 @@
 import {
   SiLaravel,
-  SiFramer,
-  SiVuedotjs,
-  SiReact,
   SiTailwindcss,
   SiNextdotjs,
   SiPython,
