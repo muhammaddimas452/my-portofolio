@@ -4,6 +4,7 @@ import {
   SiNextdotjs,
   SiPython,
   SiVite,
+  SiReact,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -27,6 +28,10 @@ const Skills = () => {
     {
       name: "Vite",
       icon: <SiVite className="text-purple-400" />,
+    },
+    {
+      name: "ReactJs",
+      icon: <SiReact className="text-blue-400" />,
     },
   ];
 
